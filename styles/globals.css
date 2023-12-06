@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  overflow-y: scroll;
+}
+
+.thin {
+  font-weight: 200;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.extra-bold {
+  font-weight: 600;
+}
+
+html,
+body {
+  font-family: "Poppins", "Gowun Dodum", sans-serif;
+}
